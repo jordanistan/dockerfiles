@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM python:3.12.0b3-slim-bullseye
 
 RUN apk add --no-cache \
 	ca-certificates \
