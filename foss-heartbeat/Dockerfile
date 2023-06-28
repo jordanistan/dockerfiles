@@ -1,4 +1,4 @@
-FROM python:3.12.0b3-slim-bullseye
+FROM python:3.12.0b2-slim-bookworm
 
 RUN apk add --no-cache \
 	ca-certificates \
