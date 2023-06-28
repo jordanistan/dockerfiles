@@ -6,7 +6,7 @@
 # 		-v /etc/nginx:/etc/nginx \
 #		r.j3ss.co/gixy /etc/nginx/nginx.conf
 #
-FROM python:2-alpine
+FROM python:3.12.0b3-slim-bullseye
 
 RUN pip install gixy
 
