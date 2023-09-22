@@ -1,4 +1,4 @@
-FROM python:3.12.0b3-alpine
+FROM python:3.12.0rc2-alpine
 
 ENV PATH $PATH:/usr/src/google-cloud-sdk/bin
 ENV CLOUD_SDK_DOCKER_VERSION 228.0.0
