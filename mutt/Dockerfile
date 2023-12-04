@@ -8,7 +8,7 @@
 #	--name mutt \
 #	jess/mutt
 #
-FROM alpine:3.18.3
+FROM alpine:3.18.5
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN addgroup -g 1000 user \
