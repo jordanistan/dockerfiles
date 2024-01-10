@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk:22-ea-29
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk add --no-cache \
