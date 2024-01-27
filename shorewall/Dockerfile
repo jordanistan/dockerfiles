@@ -6,7 +6,7 @@
 #	--privileged \
 # 	jess/shorewall
 #
-FROM alpine:3.18.3
+FROM alpine:3.18.6
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk --no-cache add \
