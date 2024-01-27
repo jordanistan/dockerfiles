@@ -1,4 +1,4 @@
-FROM alpine:3.18.3
+FROM alpine:3.18.6
 
 COPY nnp /usr/local/bin/nnp
 RUN chmod +s /usr/local/bin/nnp
