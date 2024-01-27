@@ -1,4 +1,4 @@
-FROM alpine:3.18.3
+FROM alpine:3
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk add --no-cache \
