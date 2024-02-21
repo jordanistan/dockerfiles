@@ -9,7 +9,7 @@
 # 	--name couchpotato \
 # 	jess/couchpotato
 #
-FROM python:3.12.0b3-slim-bullseye
+FROM python:3.13.0a4-slim-bullseye
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 # machine parsable metadata, for https://github.com/pycampers/dockapt
