@@ -1,4 +1,4 @@
-FROM python:3.12.0b3-slim-bullseye
+FROM python:slim-bullseye
 
 RUN apk add --no-cache --virtual .build-deps \
 		build-base \
