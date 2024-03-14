@@ -1,4 +1,4 @@
-FROM python:3.12.0b3-slim-bullseye
+FROM python:slim-bullseye
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 ENV LANG "en_US.UTF-8"
